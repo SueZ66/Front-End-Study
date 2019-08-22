@@ -1,6 +1,19 @@
 ## ***Sass***知识点
 
+### 目录
+
+<ul>
+    <li><a src="#import">1. 导入</a></li>
+    <li><a src="#variables">2. 变量</a></li>
+	<li><a src="#nesting">3. 嵌套</a></li>
+	<li><a src="#mixins">4. 混入</a></li>
+	<li><a src="#extend">5. 继承</a></li>
+	<li><a src="#operators">6. 运算符</a></li>
+</ul>
+
 ### 导入(Import)
+
+<a name="import"></a>
 
 被用来导入的文件的文件名前要添加下划线，如以下格式：
 
@@ -21,6 +34,8 @@
 
 
 ### 变量(Variables)
+
+<a name="variables"></a>
 
 在***Sass***中，声明变量的方式是使用***“$”***符号，具体方法为：
 
@@ -55,6 +70,8 @@ header {
 
 ### 嵌套(Nesting)
 
+<a name="nesting"></a>
+
 在***Sass***中，可以使用嵌套书写的方式编写样式，减少重复冗余工作。
 
 ```scss
@@ -80,9 +97,11 @@ header {
 
 ### 混入(Mixins)
 
+<a name="mixins"></a>
+
 在***Sass***中，我们可以使用定义函数的方式编写样式，这种定义函数的方式，就是混入。
 
-在***Sass***文件中，我们使用***"@mixin"***的方式定义函数：
+在***Sass***文件中，我们使用***"@mixins"***的方式定义函数：
 
 ```scss
 @mixin transform($property) {
@@ -105,6 +124,8 @@ header {
 
 
 ### 继承(Extend/Inheritance)
+
+<a name="extend"></a>
 
 在使用***Sass***时，我们可以先定义一些父类样式，在后续开发过程中我们可以使用继承父类的方式，提高开发效率。
 
@@ -133,6 +154,8 @@ header {
 
 
 ### 运算符(Operators)
+
+<a name="operators"></a>
 
 在***Sass***中我们能直接使用四则运算符进行运算，方便快捷，简化开发：
 
