@@ -1,16 +1,6 @@
 ## ***webpack***知识点
 
-### 目录
-
-<ol>
-    <li><a href="#个人见解">个人见解</a></li>
-    <li><a href="#使用方法">使用方法</a>
-        <ol>
-            <li><a href="#项目初始化">项目初始化</a></li>
-            <li><a href="#webpack开发插件">webpack开发插件</a></li>
-        </ol>
-    </li>
-</ol>
+[TOC]
 
 
 

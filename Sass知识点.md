@@ -1,15 +1,8 @@
 ## ***Sass***知识点
 
-### 目录
+[TOC]
 
-<ol>
-    <li><a href="#导入import">导入</a></li>
-    <li><a href="#变量variables">变量</a></li>
-	<li><a href="#嵌套nesting">嵌套</a></li>
-	<li><a href="#混入mixins">混入</a></li>
-	<li><a href="#继承ExtendInheritance">继承</a></li>
-	<li><a href="#运算符operators">运算符</a></li>
-</ol>
+
 
 ### 导入(Import)
 
